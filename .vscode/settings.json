@@ -1,0 +1,23 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "files.associations": {
+        "*.ino": "cpp",
+        "__hash_table": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "string": "cpp"
+    },
+    "configurations": [
+        {
+            "name": "Libraries",
+            "includePath": [
+                "${workspaceFolder}/lib/**",
+                "${default}"
+            ]
+        }
+    ],
+    "particle.targetPlatform": "b5som",
+    "particle.firmwareVersion": "6.3.0",
+    "editor.formatOnSave": true
+}
